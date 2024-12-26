@@ -1,0 +1,11 @@
+.collections-container{
+    min-height: 100vh;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+   
+}
+
+.applyBackground{
+   background-color: #32323270;
+
+}

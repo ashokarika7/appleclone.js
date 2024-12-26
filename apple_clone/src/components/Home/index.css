@@ -1,0 +1,116 @@
+.home-container{
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding-top: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.home-link-container{
+    width: 100%;
+}
+
+.apple-logo-link-el{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 34px;
+    
+}
+
+.apple-header-logo{
+    height: auto;
+    width: 90px;
+}
+
+.home-details-container{
+    top: 17%;
+    width: 100%;
+    z-index: 2;
+    max-width: 42.3529411765rem; 
+    position:relative;
+}
+
+
+.details-header{
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -.009em;
+    line-height: 1.0625;
+    display:flex;
+    flex-direction: column;
+}
+
+.details-first-title{
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .011em;
+    line-height: 1.381002381;
+    margin-bottom: 10px;
+}
+
+.home-btn{
+    color: #ffffff;
+    outline:none;
+    cursor:pointer;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color:#0071e3;
+    border-width: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 980px;
+    width: 140px;
+    height: 45px;
+}
+
+.home-img-container{
+    margin-inline-start: 0;
+    max-height: 29.8823529412rem;
+    min-height: 18.4705882353rem;
+    transform: translateY(10rem) scale(2);
+    height: 53vh;
+    max-width: 500px;
+    width: 52vh;
+    margin:20px auto;
+    position:relative;
+    text-align:center;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: auto;
+    aspect-ratio: auto 500 / 500;
+}
+
+.apple-watch-head-img{
+    position:absolute;
+    height: auto;
+    max-width: 500px;
+    width: 52vh;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.apple-case-img{
+    margin-inline-start: 0;
+    position:absolute;
+    height: auto;
+    max-width: 500px;
+    width: 52vh;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
