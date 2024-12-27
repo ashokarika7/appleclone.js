@@ -8,7 +8,7 @@ class Watch extends Component{
     state= {frontView: true }
 
     onClickView= () => {
-        this.setState(prevState => ({frontView: !prevState.frontView}))
+        this.setState(prevState => ({frontView: !prevState.frontView})) 
     }
 
     render(){
@@ -16,7 +16,7 @@ class Watch extends Component{
         const {productDetails,isPopupOpen}= this.props 
     const {watchImg,collectionName,currentPrice,descriptiveProductName,sideView}= productDetails
 
-        const btnTxt= frontView ? 'Front view' : 'Side view'
+        const btnTxt= frontView ? 'Side view' : 'Front view'
         const imgUrl= frontView ? watchImg : sideView
 
         const applyBackgroundInHeader= isPopupOpen ? 'applyBackgroundInHeader' : ''

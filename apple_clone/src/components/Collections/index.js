@@ -46,18 +46,20 @@ class Collections extends Component{
             key: data.key,
             options: data.options,
         }))
+        console.log(data.body)
         this.setState({productDetails: updateDetails,sectionDetails:updateSections})
     }
 
 
     render(){
         const {isPopupOpen,productDetails,sectionDetails}= this.state 
-        console.log(sectionDetails)
+        console.log(sectionDetails[0])
         const applyBackground= isPopupOpen ? 'applyBackground' : ''
         return(
             <div className={`collections-container ${applyBackground}`} >
                 <Header isPopupOpen={isPopupOpen} updateCollection={this.updateCollection} togglePopupBackground={this.togglePopupBackground}/>
                 <Watch isPopupOpen={isPopupOpen} productDetails={productDetails} />
+                <div className='buttons-container' >
                 <ul className='btns-ul-container' >
                 {
                     sectionDetails.map(data => 
@@ -65,6 +67,7 @@ class Collections extends Component{
                     )
                 }
                 </ul>
+                </div>
             </div>
         )
     }

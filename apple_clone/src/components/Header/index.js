@@ -52,6 +52,7 @@
                 <li>
                 <button onClick={() => onClickSeries10Btn('apple-watch-se')} type='button' className='popup-btn' >
                     Apple Watch SE</button></li>
+                   
             
         </ul>
         </div>
