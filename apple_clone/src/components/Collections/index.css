@@ -4,8 +4,15 @@
     transition: background-color 0.3s ease;
    
 }
+   
 
 .applyBackground{
    background-color: #32323270;
 
+}
+
+.btns-ul-container{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
 }
