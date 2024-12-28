@@ -1,0 +1,31 @@
+.collections-container{
+    min-height: 150vh;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    overflow: auto;
+   
+}
+   
+
+.applyBackground{
+   background-color: #32323270;
+
+}
+
+.buttons-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btns-ul-container{
+    list-style-type: none;
+    padding:0px;
+    margin-top:15   px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

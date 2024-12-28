@@ -1,0 +1,29 @@
+.li-container{
+    
+}
+
+.buttons-btn{
+    background: #e8e8ed;
+    color: #1d1d1f;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 6px;
+    padding: 0 18px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.1764805882;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 100px;
+    border-radius:980px;
+    
+}
+
+.button-text{
+    margin-left:5px;
+}
